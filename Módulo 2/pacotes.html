@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos serviços!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu">
+            <img class="img" src="./imagens/imagem1.png">
+            <div class="first">FrontEnders</div>
+            <div class="after"><a href="index.html">Home</a></div>
+            <div class="after"><a href="pacotes.html">Pacotes</a></div>
+            <div class="after"><a href="contato.html">Contato</a></div>
+            <div class="after"><a href="login.html">Login</a></div>
+        </div>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button id="sumir" onclick="esconderInfo()" type="button" data-bs-slide-to="0" class="active"></button>
+                <button id="sumir" onclick="esconderInfo()" type="button" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button id="sumir" onclick="esconderInfo()" type="button" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Faça o curso do seu sucesso!</h1>
+                            <p class="curso">Desenvolvedor Front End</p>
+                            <p>Por: 2.890,00 ou 10x de 290,00</p>
+                            <p> <button onclick="saiba()" id="maisInformacoes1" class="btn btn-lg btn-primary" href="#">
+                                    Mais informações </button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" presrveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Faça o curso do seu sucesso!</h1>
+                            <p class="curso">Desenvolvedor Back End</p>
+                            <p>Por: 2.990,00 ou 10x de 299,90</p>
+                            <p> <button onclick="saiba2()" id="maisInformacoes1" class="btn btn-lg btn-primary"
+                                    href="#"> Mais informações </button></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" />
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1 class="textocarrosel">Faça o curso do seu sucesso!</h1>
+                            <p class="curso">Desenvolvedor Full Stack</p>
+                            <p>Por: 3.590,00 ou 10x de 359,90</p>
+                            <p> <button onclick="saiba3()" id="maisInformacoes1" class="btn btn-lg btn-primary"
+                                    href="#"> Mais informações </button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button onclick="esconderInfo()" class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button onclick="esconderInfo()" class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section id="saibaMais">
+            <h2 class="tcurso">
+                <strong>
+                    <center>FRONT END</center>
+                </strong>
+            </h2>
+            <h4><strong> Formação Completa!</strong></h4>
+            <div class="tamanhotexto">
+                Duração de 8 meses com cerca de 144 horas de aula on-line. Aula toda
+                terça e quinta na plataforma.<br />
+                <br />
+                APRENDA:<em><strong> HTML, CSS, JavaScript, Ajax e APIs. </strong></em>
+                <br />
+
+                No curso você vai:<br />
+
+                Aprender a criar páginas e apps com layout atraentes e
+                profissionais;<br />
+                Aprender como se portar e conseguir um bom emprego; <br />
+                Ter Feedbacks individualizado; <br />
+                Professoras de grande conhecimento na área; <br />
+                Realizar 5 projetos para seu portfólio; <br />
+                Ter a oportunidade de estagiar conosco ou empresas parceiras.<br />
+            </div>
+        </section>
+        <section id="saibaMais2">
+            <h2 class="tcurso">
+                <strong>
+                    <center>BACK END</center>
+                </strong>
+            </h2>
+            <h4><strong> Formação completa! </strong></h4>
+            <div class="tamanhotexto">
+                Duração de 9 meses com cerca de 162 horas de aulas on-line. Aula toda
+                terça e quinta na plataforma.<br />
+                <br />
+                APRENDA:<em><strong> Ruby, Java, Clojure e PHP.</strong></em><br />
+                <br />
+
+                No curso você vai:<br />
+
+                Aprender tudo por trás de uma aplicação, programar com banco de dados;
+                <br />
+                Aprender como se portar e conseguir um bom emprego; <br />
+                Ter Feedbacks individualizado; <br />
+                Professoras de grande conhecimento na área; <br />
+                Realizar 5 projetos para seu portfólio; <br />
+                Ter a oportunidade de estagiar conosco ou empresas parceiras.
+            </div>
+        </section>
+        <section id="saibaMais3">
+            <h2 class="tcurso">
+                <strong>
+                    <center>FULL STACK</center>
+                </strong>
+            </h2>
+            <h4><strong> Formação completa! </strong></h4>
+            <div class="tamanhotexto">
+                Duração de 15 meses com cerca de 270 horas de aula on-line. Aula toda
+                terça e quinta na plataforma.<br />
+                <br />
+                APRENDA:<em><strong> PHP, Ruby, Java, Clojure, node.js, HTML, CSS, JavaScript, Ajax e
+                        APIs.</strong></em><br />
+                <br />
+
+                No curso você vai:<br />
+
+                Aprender a criar páginas e apps com layout atraentes e
+                profissionais;<br />
+                Aprender tudo por trás de uma aplicação, programar com banco de dados;
+                <br />
+                Aprender como se portar e conseguir um bom emprego; <br />
+                Ter Feedbacks individualizado; <br />
+                Professoras de grande conhecimento na área; <br />
+                Realizar 10 projetos para seu portfólio; <br />
+                Ter a oportunidade de estagiar conosco ou empresas parceiras.
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="text">FrontEnders</div>
+        <div class="rodape">
+            <div class="part1">
+                <div class="Pitem1">Contato</div>
+                <div class="lista"><img src="imagens/whatsapp.png" class="logos">(21) 99243-2874</div>
+                <div class="lista"><img src="imagens/email.png" class="logos">@FrontEnders.com</div>
+                <div class="lista"><img src="./imagens/location.png" class="logos">Rio de janeiro - RJ</div>
+            </div>
+            <div class="part2">
+                <div class="Pitem2">Redes sociais</div>
+                <div class="lista2"><img src="./imagens/logotipo-do-instagram.png" class="logo2">@Front_Enders</div>
+                <div class="lista2"><img src="./imagens/facebook.png" class="logo2">@Front_Enders</div>
+                <div class="lista2"><img src="./imagens/youtube.png" class="logo2">@Front_Enders</div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
